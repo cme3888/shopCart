@@ -1,0 +1,35 @@
+<div class="header">
+  <ul class="nav nav-pills pull-right">
+    <li class="active"><a ng-href="#">Home</a></li>
+    <li><a ng-href="#">About</a></li>
+    <li><a ng-href="index.html">Cart</a></li>
+  </ul>
+  <h3 class="text-muted">shopCart</h3>
+</div>
+<body ng-controller="MainCtrl as cart">
+ <div ng-hide="toy.soldOut" ng-repeat="toy in awesomeThings">
+  <br>
+<img ng-src="{{toy.images[0].full}}"/>
+<br>
+ <h1>{{toy.name}}</h1>
+ <h2>{{toy.price | currency}}</h2>
+ <p>{{toy.description}}</p>
+ <br>
+ <button ng-show="toy.canPurchase">Add to Cart</button>
+ <br>
+</div>
+
+
+  
+
+</body>
+
+
+
+  
+
+
+
+<div class="footer">
+  <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
+</div>
