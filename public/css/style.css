@@ -6,3 +6,12 @@ body {
 a {
   color: #00B7FF;
 }
+
+.indexdiv{
+	height:900px;
+	width:900px;
+	margin:50px;
+	padding:50px;
+	background-color:black;
+	opacity:0.5;
+}
