@@ -14,4 +14,8 @@ a {
 	padding:50px;
 	background-color:black;
 	opacity:0.5;
+	border-radius:10px;
+}
+img{
+	border-radius:10px;
 }
