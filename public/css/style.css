@@ -1,10 +1,12 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  	padding: 50px;
+  	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	background-color: black;
+	opacity:0.5;
 }
 
 a {
-  color: #00B7FF;
+  	color: #00B7FF;
 }
 
 .indexdiv{
@@ -12,8 +14,7 @@ a {
 	width:900px;
 	margin:50px;
 	padding:50px;
-	background-color:black;
-	opacity:0.5;
+	background-image:url("http://fin6.com/wp-content/uploads/2013/12/ddf7d2bad272731b84290fac2b1315f4.jpg");
 	border-radius:10px;
 }
 img{
