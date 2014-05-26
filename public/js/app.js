@@ -32,6 +32,11 @@ angular
         templateUrl: 'views/store-list.html',
         controller: 'StoreCtrl'
       })
+      .when('/newtoy', {
+        templateUrl: 'views/toy-create.html',
+        controller: 'StoreCtrl'
+
+      })
       .otherwise({
         redirectTo: '/'
       });

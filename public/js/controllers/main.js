@@ -23,5 +23,19 @@ angular.module('ngDay2App')
   		PostSvc.edit($scope.post);
   		$location.path('/blog');
   	};
+    .controller('StoreCtrl' function ($scope, $location, StoreSvc ){
+
+      $scope.createToy = function() {
+        $location.path('/newtoy');
+      };
+
+      $scope.newToy = function(post) {
+        StoreSvc.create(post)
+        $location.path('/store');
+
+      };
+      
+
+    })
 
   });
