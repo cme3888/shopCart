@@ -31,13 +31,13 @@ angular.module('ngDay2App')
     $scope.createItem = function() {
       $location.path('/newitem');
     };
-    $scope.newItem = function(post) {
-      StoreSvc.create(post)
+    $scope.newItem = function(item) {
+      StoreSvc.create(item)
       $location.path('/store');
     };
     $scope.items = StoreSvc.query();
   })
-  .controller('StoreCtrl', function($scope, $location, $routeParams, StoreSvc){
+  .controller('StoreCtrl', function($scope, $location, $routeParams, StoreSvc) {
     $scope.item = StoreSvc.show({ id: $routeParams.id});
     $scope.delete = function() {
       StoreSvc.delete({ id: $routeParams.id });
