@@ -10,6 +10,6 @@
 <textarea data-ng-model="item.description" cols="40" rows="15" placeholder="Describe the Product"></textarea>
 <br>
 <input type="text" data-ng-model="item.price" placeholder="price">
-<button><a href="#/store/{{item._id}}" data-ng-click="newitem(item)">Create<a></button>
+<button data-ng-click="newitem(item)">Create</button>
 <a href="#/store/{{item._id}}">view more</a>
 </div>
