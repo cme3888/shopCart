@@ -30,11 +30,11 @@ angular
       })
       .when('/store',{
         templateUrl: 'views/store-list.html',
-        controller: 'StoreCtrl'
+        controller: 'StoresCtrl'
       })
       .when('/newitem', {
         templateUrl: 'views/toy-create.html',
-        controller: 'StoreCtrl'
+        controller: 'StoresCtrl'
 
       })
       .when('/store/:id', {
