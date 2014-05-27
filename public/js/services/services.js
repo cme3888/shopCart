@@ -20,3 +20,23 @@ angular.module('ngDay2App')
 			}
 			)
 	});
+	.factory('StoreSvc', function($resource){
+		return $resource('api/collections/shopcartng',
+			{},
+			{
+				query:{ method: 'GET', isArray: true },
+				create:{ method: 'POST'}
+			});
+	})
+	.factory('StoreSvc', function($resource){
+		return $resource('api/collections/shopcartng/:id', 
+		{
+			id: '@_id'
+		},
+		{
+			show: { method: 'GET'},
+			edit: { method: 'PUT'},
+			delete: { method: 'DELETE'}
+		}
+		)
+	});
