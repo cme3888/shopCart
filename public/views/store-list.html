@@ -1,11 +1,13 @@
-<div class="store-listhtml">
-	<header>Enjoy your childhood</header>
-<section data-ng-repeat="items in store">	
-	<p>{{item.pic1}}</p>
-	<p>{{item.pic2}}</p>
-	<p>{{item.pic3}}</p>
-	<p>{{item.description}}</p>
-	<p>{{item.price}}</p>
-	<p>{{item.title}}</p>
-</section>
-</div>
+<div ng-controller="StoreCtrl">
+	<div class="store-listhtml">
+		<header>Enjoy your childhood</header>
+		<section data-ng-repeat="items in store">	
+			<p>{{item.pic1}}</p>
+			<p>{{item.pic2}}</p>
+			<p>{{item.pic3}}</p>
+			<p>{{item.description}}</p>
+			<p>{{item.price}}</p>
+			<p>{{item.title}}</p>
+		</section>
+	</div>
+</div>	
