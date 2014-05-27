@@ -32,7 +32,7 @@ angular
         templateUrl: 'views/store-list.html',
         controller: 'StoreCtrl'
       })
-      .when('/newitem', {
+      .when('/newItem', {
         templateUrl: 'views/toy-create.html',
         controller: 'StoreCtrl'
 
