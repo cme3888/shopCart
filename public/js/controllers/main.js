@@ -26,7 +26,7 @@ angular.module('ngDay2App')
 
   });
 angular.module('ngDay2App')
-  .controller('StoreCtrl', function ($scope, $location, StoreSvc){
+  .controller('StoresCtrl', function ($scope, $location, StoresSvc){
 
     $scope.createItem = function() {
       $location.path('/newitem');
