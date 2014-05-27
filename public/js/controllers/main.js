@@ -32,10 +32,10 @@ angular.module('ngDay2App')
       $location.path('/newitem');
     };
     $scope.newItem = function(item) {
-      StoreSvc.create(item)
+      StoresSvc.create(item)
       $location.path('/store');
     };
-    $scope.items = StoreSvc.query();
+    $scope.items = StoresSvc.query();
   })
   .controller('StoreCtrl', function($scope, $location, $routeParams, StoreSvc) {
     $scope.item = StoreSvc.show({ id: $routeParams.id});
