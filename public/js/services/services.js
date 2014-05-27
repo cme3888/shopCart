@@ -21,7 +21,7 @@ angular.module('ngDay2App')
 			)
 	});
 angular.module('ngDay2App')	
-	.factory('StoreSvc', function($resource){
+	.factory('StoresSvc', function($resource){
 		return $resource('api/collections/shopcartng',
 			{},
 			{
