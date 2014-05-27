@@ -32,11 +32,20 @@ angular
         templateUrl: 'views/store-list.html',
         controller: 'StoreCtrl'
       })
-      .when('/newtoy', {
+      .when('/newitem', {
         templateUrl: 'views/toy-create.html',
         controller: 'StoreCtrl'
 
       })
+      .when('store/:id', {
+        templateUrl: 'views/store-detail.hmtl',
+        controller:'StoreCtrl'
+      })
+      .when('store/:id/edit',{
+        templateUrl:'views/store-editDetail.html',
+        controller:'StoreCtrl'
+      })
+      .whn
       .otherwise({
         redirectTo: '/'
       });
