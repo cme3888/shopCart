@@ -47,7 +47,8 @@ img{
 	margin:50px;
 	padding:50px;
 	border-radius:10px;
-	background-color: black;
+	background-color: orange;
+	opacity:0.5;
 	color:gray;
 	box-shadow: 15px;
 	}
@@ -57,7 +58,8 @@ img{
 	margin:50px;
 	padding:50px;
 	border-radius:10px;
-	background-color: black;
+	background-color: orange;
+	opacity: 0.5;
 	color:gray;
 	box-shadow: 100px;
 }
