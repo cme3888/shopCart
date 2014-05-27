@@ -31,8 +31,8 @@ angular.module('ngDay2App')
     $scope.createItem = function() {
       $location.path('/newitem');
     };
-    $scope.newItem = function(item) {
-      StoreSvc.create(item)
+    $scope.newItem = function(post) {
+      StoreSvc.create(post)
       $location.path('/store');
     };
     $scope.items = StoreSvc.query();
