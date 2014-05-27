@@ -35,7 +35,7 @@ angular.module('ngDay2App')
       StoresSvc.create(item)
       $location.path('/store');
     };
-    $scope.items = StoresSvc.query();
+    $scope.products = StoresSvc.query();
   })
   .controller('StoreCtrl', function($scope, $location, $routeParams, StoreSvc) {
     $scope.item = StoreSvc.show({ id: $routeParams.id});
