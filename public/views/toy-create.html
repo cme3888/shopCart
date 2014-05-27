@@ -1,3 +1,13 @@
-<input type="text" data-ng-model="toy.title">
-<textarea data-ng-model="post.content"></textarea>
-<button data-ng-click="newPost(post)">Create</button>
+<div class="toy-createhtml">
+	<header>Add a new toy to the box!<header>
+<input type="text" data-ng-model="toy.title" placholder"title">
+<br>
+<input type="text" data-ng-model="toy.pic1" placeholder="picture">
+<input type="text" data-ng-model="toy.pic2" placeholder="picture">
+<input type="text" data-ng-model="toy.pic3" placeholder="picture">
+<br>
+<textarea data-ng-model="toy.description" cols="40" rows="15" placeholder="Describe the Product"></textarea>
+<br>
+<input type="text" data-ng-model="toy.price" placeholder="price">
+<button data-ng-click="newToy(toy)">Create</button>
+</div

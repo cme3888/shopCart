@@ -27,9 +27,9 @@ img{
 	padding:50px;
 	border-radius: 10px;
 	background-color: orange;
-	opacity:0.5;
+	opacity:0.3;
 	color:gray;
-	box-shadow: 15px;
+
 }
 .blog-editDetailhtml{
 	height:900px;
@@ -38,9 +38,9 @@ img{
 	padding:50px;
 	border-radius:10px;
 	background-color:orange;
-	opacity:0.5;
+	opacity:0.3;
 	color:gray;
-	box-shadow: 50px;
+	
 }
 .blog-createhtml{
 	height:900px;
@@ -49,9 +49,9 @@ img{
 	padding:50px;
 	border-radius:10px;
 	background-color: orange;
-	opacity:0.5;
+	opacity:0.3;
 	color:gray;
-	box-shadow: 15px;
+	
 	}
 .blog-detailhtml{
 	height:900px;
@@ -60,7 +60,7 @@ img{
 	padding:50px;
 	border-radius:10px;
 	background-color: orange;
-	opacity: 0.5;
+	opacity: 0.3;
 	color:gray;
-	box-shadow: 100px;
+	
 }
