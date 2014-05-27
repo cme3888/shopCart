@@ -20,3 +20,10 @@ a {
 img{
 	border-radius:10px;
 }
+.blog-createhtml{
+	height:900px;
+	width:900px;
+	margin:50px;
+	padding:50px;
+	border-radius:10px;
+}
