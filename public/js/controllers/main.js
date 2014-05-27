@@ -25,3 +25,22 @@ angular.module('ngDay2App')
   	};
 
   });
+angular.module('ngDay2App')
+  .controller('StoreCtrl', function ($scope, $location, StoreSvc){
+
+    $scope.createItem = function() {
+      $location.path('/newitem');
+    };
+    $scope.newItem = function(item) {
+      StoreSvc.create(item)
+      $location.path('/store');
+    };
+    $scope.items = StoreSvc.query();
+  })
+  .controller('StoreCtrl', function($scope, $location, $routeParams, StoreSvc){
+    $scope.item = StoreSvc.show({ id: $routeParams.id});
+    $scope.delete = function() {
+      StoreSvc.delete({ id: $routeParams.id });
+      $location.path('/store');
+    };
+  });
