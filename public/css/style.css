@@ -28,6 +28,7 @@ img{
 	border-radius: 10px;
 	background-color: black;
 	color:gray;
+	box-shadow: 15px;
 }
 .blog-editDetailhtml{
 	height:900px;
@@ -35,8 +36,10 @@ img{
 	margin:50px;
 	padding:50px;
 	border-radius:10px;
-	background-color:black;
+	background-color:orange;
+	opacity:0.5;
 	color:gray;
+	box-shadow: 15px;
 }
 .blog-createhtml{
 	height:900px;
@@ -46,6 +49,7 @@ img{
 	border-radius:10px;
 	background-color: black;
 	color:gray;
+	box-shadow: 15px;
 	}
 .blog-detailhtml{
 	height:900px;
@@ -55,4 +59,5 @@ img{
 	border-radius:10px;
 	background-color: black;
 	color:gray;
+	box-shadow: 15px;
 }
