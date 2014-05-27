@@ -37,15 +37,14 @@ angular
         controller: 'StoreCtrl'
 
       })
-      .when('store/:id', {
-        templateUrl: 'views/store-detail.hmtl',
+      .when('/store/:id', {
+        templateUrl: 'views/store-detail.html',
         controller:'StoreCtrl'
       })
-      .when('store/:id/edit',{
+      .when('/store/:id/edit', {
         templateUrl:'views/store-editDetail.html',
         controller:'StoreCtrl'
       })
-      .whn
       .otherwise({
         redirectTo: '/'
       });
