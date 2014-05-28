@@ -3,7 +3,7 @@
 <div class="header"/>
 <div ng-controller="StoreCtrl">
 	<div class="store-listhtml">
-		<section ng-hide="item.soldOut" data-ng-repeat="item in products">	
+		<section data-ng-repeat="item in products">	
 		<h1>{{item.title}}</h1>
 		<img ng-src="{{item.pic1}}">
 		<p>{{item.description}}</p>
