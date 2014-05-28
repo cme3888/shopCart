@@ -45,6 +45,18 @@ angular
         templateUrl:'views/store-editDetail.html',
         controller:'StoreCtrl'
       })
+      .when('/cart',{
+        templateUrl:'views/cart-list.html',
+        controller:'CartsCtrl'
+      })
+      .when('/cart/:id', {
+        templateUrl:'views/cart-detail.html',
+        controller:'CartCtrl'
+      })
+      .when('/cart/:id', {
+        templateUrl:'views/cart-editDetail.html',
+        controller:'CartCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });

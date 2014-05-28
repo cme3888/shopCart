@@ -44,3 +44,10 @@ angular.module('ngDay2App')
       $location.path('/store');
     };
   });
+  angular.module('ngDay2App')
+  .controller('CartCtrl', function ($scope, $location, CartSvc){
+  
+
+
+
+  });

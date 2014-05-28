@@ -41,3 +41,25 @@ angular.module('ngDay2App')
 		}
 		)
 	});
+angular.module('ngDay2App')	
+	.factory('CartsSvc', function($resource){
+		return $resource('api/collections/cart', 
+			{},
+			{
+				query:{method:'GET', isArray: true },
+				create:{ method: 'POST'}
+
+			});
+	})
+	.factory('CartSvc', function($resource){
+		return $resource('api/collections/cart/:id',
+		{
+			id:'@_id'
+		},
+		{
+			show: {method:'GET'},
+			edit: {method:'PUT'},
+			delete: { method:'DELETE'}
+		}
+		)
+	});
