@@ -71,6 +71,11 @@ img{
 	opacity:0.7;
 	color:gray;
 }
+.store-listhtml img{
+	border-radius:10px;
+	height:40px;
+	width:40px;
+}
 .store-listhtml header{
 	height:70px;
 	width:900px;
