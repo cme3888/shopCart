@@ -1,4 +1,8 @@
 <div ng-controller="CartsCtrl">
+<section data-ng-repeat="item in products">
+	<h2>{{product.title}}</h2>
+	<a href="#/cart/{{item._id}}">view more</a>
+</section>
 
 
 </div>
